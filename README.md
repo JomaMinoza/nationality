@@ -1,8 +1,9 @@
 # Nationality
+by [Jose Marie Antonio Miñoza](https://github.com/JomaMinoza)
 
 Provides listing of nationality that you may need in your ruby applications.
 
-Data in this gem was taken from Github GISTand the following repos:
+Data in this gem was taken from Github GIST and the following repos:
 
 * [marijn/README.markdown](https://gist.github.com/marijn/274449#file-nationalities-yaml)
 
@@ -10,7 +11,7 @@ Data in this gem was taken from Github GISTand the following repos:
 
 Add this line to your application's Gemfile:
 
-    gem 'nationality', '~> 0.0.1'
+    gem 'nationality', '~> 0.0.2'
 
 And then execute:
 
