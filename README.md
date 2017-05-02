@@ -11,7 +11,7 @@ Data in this gem was taken from Github GIST and the following repos:
 
 Add this line to your application's Gemfile:
 
-    gem 'nationality', '~> 0.0.2'
+    gem 'nationality', '~> 1.0.3'
 
 And then execute:
 
@@ -26,6 +26,14 @@ Or install it yourself as:
 This gem provides the following constant arrays:
 
 * `Nationality::NATIONALITY`
+
+## New! Options for Select Helper
+
+Customize `options_for_select` with default nationality for your Rails application.
+
+```ruby
+= f.select :nationality, options_for_select(Nationality::Nationality.default_option("filipino"), :selected => f.object.nationality), {include_blank: "What's your nationality?"}, {:class => 'form-control' }
+```
 
 ## Contributing
 
