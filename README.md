@@ -27,7 +27,7 @@ This gem provides the following constant arrays:
 
 * `Nationality::NATIONALITY`
 
-## New! Options for Select Helper
+## NEW! Added Options for Select Helper
 
 Customize `options_for_select` with default nationality for your Rails application.
 
