@@ -10,7 +10,8 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Provides listing of nationality that you may need in your ruby applications.}
   gem.summary       = %q{List of Nationality}
   gem.homepage      = "https://github.com/JomaMinoza/nationality/"
-
+  gem.license       = 'MIT'
+  
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
