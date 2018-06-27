@@ -26,6 +26,16 @@ Or install it yourself as:
 This gem provides the following constant arrays:
 
 * `Nationality::NATIONALITY`
+```ruby
+  Nationality::Nationality.default_option("filipino")
+```
+
+## NEW! Added a larger list of nationalities  and some alternative spellings + 300 more options
+* `Nationality::NATIONALITY_EXPANDED_SPELLING` - list of possible alternative spellings, plus additional nationalities, extracted from some Wikipedia parsing. Suggested use - various text processing.
+
+```ruby
+Nationality::Nationality.default_option("Belorussian", :expanded)
+```
 
 ## NEW! Added Options for Select Helper
 
@@ -34,6 +44,7 @@ Customize `options_for_select` with default nationality for your Rails applicati
 ```ruby
 = f.select :nationality, options_for_select(Nationality::Nationality.default_option("filipino"), :selected => f.object.nationality), {include_blank: "What's your nationality?"}, {:class => 'form-control' }
 ```
+
 
 ## Contributing
 

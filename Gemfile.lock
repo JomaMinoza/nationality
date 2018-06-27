@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nationality (1.0.3)
+    nationality (1.0.4)
 
 GEM
   remote: https://rubygems.org/
@@ -26,4 +26,4 @@ DEPENDENCIES
   rspec (~> 2.13, >= 2.13.0)
 
 BUNDLED WITH
-   1.12.5
+   1.16.1
