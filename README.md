@@ -45,8 +45,6 @@ Customize `options_for_select` with default nationality for your Rails applicati
 Nationality::Nationality.default_option("Belorussian", :expanded)
 ```
 
-
-
 ## Contributing
 
 1. Fork it
@@ -54,3 +52,7 @@ Nationality::Nationality.default_option("Belorussian", :expanded)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+[MIT](LICENSE.txt)
