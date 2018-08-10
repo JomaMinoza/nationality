@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Jose Marie Antonio Miñoza"]
   gem.email         = ["josemarieantoniominoza@gmail.com"]
   gem.description   = %q{Provides listing of nationality that you may need in your ruby applications.}
-  gem.summary       = %q{List of Nationality}
+  gem.summary       = %q{List of Nationalities}
   gem.homepage      = "https://github.com/JomaMinoza/nationality/"
   gem.license       = 'MIT'
   
