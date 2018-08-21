@@ -18,9 +18,9 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 1.9.2'
 
-  gem.add_development_dependency 'pry', '~> 0.11'
-  gem.add_development_dependency 'pry-byebug', '~> 3.5'
-  gem.add_development_dependency 'pry-doc', '~> 0.11'
-  gem.add_development_dependency 'rake', '~> 0.4.8'
-  gem.add_development_dependency 'rspec', '~> 2.13', '>= 2.13.0'
+  gem.add_development_dependency 'pry', '~> 0.11.3'
+  gem.add_development_dependency 'pry-byebug', '~> 3.6.0'
+  gem.add_development_dependency 'pry-doc', '~> 0.13.4'
+  gem.add_development_dependency 'rake', '~> 12.3.1'
+  gem.add_development_dependency 'rspec', '~> 3.8.0'
 end

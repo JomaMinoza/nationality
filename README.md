@@ -30,14 +30,7 @@ This gem provides the following constant arrays:
   Nationality::Nationality.default_option("filipino")
 ```
 
-## NEW! Added a larger list of nationalities  and some alternative spellings + 300 more options
-* `Nationality::NATIONALITY_EXPANDED_SPELLING` - list of possible alternative spellings, plus additional nationalities, extracted from some Wikipedia parsing. Suggested use - various text processing.
-
-```ruby
-Nationality::Nationality.default_option("Belorussian", :expanded)
-```
-
-## NEW! Added Options for Select Helper
+## Pre selected option for Select Helper
 
 Customize `options_for_select` with default nationality for your Rails application.
 
@@ -45,6 +38,12 @@ Customize `options_for_select` with default nationality for your Rails applicati
 = f.select :nationality, options_for_select(Nationality::Nationality.default_option("filipino"), :selected => f.object.nationality), {include_blank: "What's your nationality?"}, {:class => 'form-control' }
 ```
 
+## Includes larger list of nationalities  and some alternative spellings + 300 more options
+* `Nationality::NATIONALITY_EXPANDED_SPELLING` - list of possible alternative spellings, plus additional nationalities, extracted from some Wikipedia parsing. Suggested use - various text processing.
+
+```ruby
+Nationality::Nationality.default_option("Belorussian", :expanded)
+```
 
 ## Contributing
 
@@ -53,3 +52,7 @@ Customize `options_for_select` with default nationality for your Rails applicati
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+[MIT](LICENSE.txt)
