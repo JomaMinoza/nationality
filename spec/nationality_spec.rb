@@ -8,13 +8,13 @@ describe Nationality do
 
   context '::NATIONALITY' do
     it 'should be 196' do
-      Nationality::NATIONALITY.count.should == 196
+      expect(Nationality::NATIONALITY.count).to eq(196)
     end
   end
 
   context '::NATIONALITY_EXPANDED_SPELLING' do
     it 'should be 196' do
-      Nationality::NATIONALITY_EXPANDED_SPELLING.count.should == 498
+      expect(Nationality::NATIONALITY_EXPANDED_SPELLING.count).to eq(498)
     end
   end
 
