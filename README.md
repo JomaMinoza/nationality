@@ -12,6 +12,11 @@ Data in this gem was taken from Github GIST and the following repos:
 Add this line to your application's Gemfile:
 
     gem 'nationality', '~> 1.0.3'
+   
+
+or
+
+    gem 'nationality', '~> 1.0.5', git: 'https://github.com/JomaMinoza/nationality'
 
 And then execute:
 
