@@ -21,6 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'pry', '~> 0.12.2', '>= 0.12.2'
   gem.add_development_dependency 'pry-byebug', '~> 3.7.0', '>= 3.7.0'
   gem.add_development_dependency 'pry-doc', '~> 1.0.0', '>= 1.0.0'
-  gem.add_development_dependency 'rake', '~> 12.3.1', '>= 12.3.1'
+  gem.add_development_dependency 'rake', '>= 12.3.1', '~> 13.0.1'
   gem.add_development_dependency 'rspec', '~> 3.8.0', '>= 3.8.0'
 end
