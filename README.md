@@ -1,4 +1,6 @@
 # Nationality
+[![Gem Version](https://badge.fury.io/rb/nationality.svg)](https://badge.fury.io/rb/nationality)
+
 by [Jose Marie Antonio Miñoza](https://github.com/JomaMinoza)
 
 Provides listing of nationality that you may need in your ruby applications.
